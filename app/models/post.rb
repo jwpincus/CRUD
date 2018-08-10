@@ -1,8 +1,6 @@
 class Post < ApplicationRecord
   
-  def body
-    self.body
-  end
+  # belongs_to :user
   
   def capitalize_title
     self.title.capitalize  
